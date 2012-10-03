@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <gadget>
+        <name>Stardate Clock</name>
+        <namespace>Anthodev</namespace>
+        <version>1.0.1</version>
+        <author name="Anthodev">
+             <info url="www.anthodev.fr" />
+        </author>
+        <copyright>2012 par Anthodev</copyright>
+        <description>Donne la date courante et celle du MMO Star Trek Online en Stardate (Date Stellaire)</description>
+	    <icons>
+           <icon height="38" width="48" src="img/stardate_clock_icone.png"/>
+        </icons>
+        <hosts>
+            <host name="sidebar">
+                <base type="HTML" apiVersion="1.0.0" src="gadget.html" />
+                <permissions>Full</permissions>
+                <platform minPlatformVersion="0.3" />
+            </host>
+        </hosts>
+        <version value="1.0.0.0" MinPlatformVersion="0.1"/>
+    </gadget>

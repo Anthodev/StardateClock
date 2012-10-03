@@ -1,0 +1,33 @@
+body 
+{ 
+    width:135;
+    height:90;
+	background: transparent;
+}
+
+#txtStardateToday {
+	position: absolute;
+	top: 24px;
+	left: 7px;
+	width: 120px;
+	height: 15px;
+	font-size: 11pt;
+	text-align: center;
+	color: black;
+	overflow: visible;
+	clip: rect(auto, auto, auto, auto);
+	z-index: 200;
+}
+
+#txtStoStardate {
+	position: absolute;
+	top: 47px;
+	left: 7px;
+	width: 120px;
+	height: 15px;
+	font-size: 11pt;
+	text-align: center;
+	color: black;overflow: visible;
+	clip: rect(auto, auto, auto, auto);
+	z-index: 200;
+}

@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<link href="settings.css" rel="stylesheet" type="text/css" />
+		<script src="settings.js" language="JavaScript"></script>
+	</head>
+	
+	<body>
+		<form id="f1" name="f1">
+			<div name="DateConverterLabel" style="top:0px; left:5px; height:25px; font-size:12pt">
+				<span id="titleSettings">Date Conventer</span>
+			</div>
+			
+			<div name="GiveDateLabel" class="Label" style="left:5px; top:40px">
+				Give a date (DD/MM/YYYY 00:00) :
+			</div>
+			
+			<input type="text" class="inputText" name="dayInput" width="30" style="left:5px; top:60px" value="01" maxlength="2"/>
+			
+			<input type="text" class="inputText" name="monthInput" style="left:35px; top:60px" value="01" maxlength="2"/>
+			  
+			<input type="text" name="yearInput" style="width:35px; text-align:center; left:65px; top:60px" value="2010" maxlength="4"/>
+			
+			<input type="text" class="inputText" name="hoursInput" style="left:110px; top:60px" value="00" maxlength="2"/>
+			
+			<input type="text" class="inputText" name="minuteInput" style="left:145px; top:60px" value="00" maxlength="2"/>
+			
+			<div name="StardateChoiceLabel" class="Label" style="left:5px; top:85px">
+				Choose a stardate type :
+			</div>
+			
+			<input type="radio" class="inputRadio" name="TimeChoice" style="left:5px; top:105px" value="true"/> This Time
+			
+			<input type="radio" class="inputRadio" name="TimeChoice" style="left:100px; top:105px" /> STO Time
+			
+			<input type="button" class="inputButton" id="validButton" name="validButton" onclick="validConvert(this.form)" value="Convert"/>
+			
+			<div style="width:120px; height:20px; left:5px; top:155px; font-size: 8pt">
+				Stardate given :
+			</div>
+			
+			<div id="resStardate" name="resStardate">
+				0000.0
+			</div>
+		</form>
+	</body>
+</html>
