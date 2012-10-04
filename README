@@ -1,0 +1,27 @@
+The Stardate Clock is a widget for Windows Sidebar which allows you to know at anytime what time it is on Star Trek’s format (current or that of Star Trek Online). But its principal utility will be to organize roleplay events in real or ingame (by chosing the stellar calendar of the “The Next Generation” serie’s or the current one in Star Trek Online).
+
+An option pane  is available in this widget which allow you to convert time in a way or the orther.
+
+The two conversion options are:
+
+- This time : If you choose this option, you can convert a date from our calendar to stardate, however the date musn’t exceed the year 2020.
+STO Time : This option allows to convert a date of STO’s period of our calendar (so in DD/MM/YYYY format) to stardate, the date must be between 2322 and 2430.
+
+- This is because there is 3 STO calendars, which is an extrapolation of our gregorian calendar, another using a different Stardate format under TOS (quite chaotic because no real time reference) and that used for TNG (and apparently in STO because the dates stick).
+
+
+
+CHANGELOG
+==================================================
+
+
+1.0.1
+-----------------------------------
+- The conversion between our current date and STO Stardate is now almost prefectly accurate (maybe it can have a minute difference or a .01 difference)
+
+
+1.0.0
+-----------------------------------
+- Initial release
+- Display the current date into Star Trek The Next Generation calendar time and Star Trek Online calendar time
+- Possibility to convert the current time into Star Trek The Next Generation calendar time or Star Trek Online calendar time through the option pane
