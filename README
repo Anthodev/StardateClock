@@ -10,10 +10,15 @@ STO Time : This option allows to convert a date of STO’s period of our calenda
 - This is because there is 3 STO calendars, which is an extrapolation of our gregorian calendar, another using a different Stardate format under TOS (quite chaotic because no real time reference) and that used for TNG (and apparently in STO because the dates stick).
 
 
+HOW USE/INSTALL IT FROM THE SOURCES
+==================================================
+
+If you want use it from the sources it's simple: zip (.zip) the folders (only them) and change the extension by ".gadget". Then double click on the file to install it.
+
+
 
 CHANGELOG
 ==================================================
-
 
 1.0.1
 -----------------------------------
